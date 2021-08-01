@@ -22,3 +22,11 @@ git push -u origin <branch-name>
 
 //delete branch from remote
 git push -d origin <branch-name>
+
+
+//stashing some changes
+git stash
+
+//get stash
+git stash pop
+
