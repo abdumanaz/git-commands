@@ -42,4 +42,8 @@ git restore --staged file-name
 
 
 GIT RESET
-git reset --hard /<commit-hash/>
+git reset --hard <commit-hash>
+
+HEAD - 1 reset
+git reset --soft HEAD~1
+
