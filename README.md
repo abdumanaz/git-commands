@@ -20,3 +20,5 @@ git switch <Branch-name>
 // push branch to remote
 git push -u origin <branch-name>
 
+//delete branch from remote
+git push -d origin <branch-name>
