@@ -36,3 +36,6 @@ git stash -u -- stash untracked files too
 git stash list
 
 git stash pop stash-name
+
+//restore stage changes
+git restore --staged file-name
