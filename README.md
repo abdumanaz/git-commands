@@ -26,7 +26,13 @@ git push -d origin <branch-name>
 
 //stashing some changes
 git stash
+or
+git stash save "name of stash"
 
 //get stash
 git stash pop
 
+git stash -u -- stash untracked files too
+git stash list
+
+git stash pop stash-name
