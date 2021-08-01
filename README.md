@@ -47,3 +47,9 @@ git reset --hard <commit-hash>
 HEAD - 1 reset
 git reset --soft HEAD~1
 
+//testing reset
+in the case of soft reset, file changes are maintained
+only the commit history is changed
+working directory and staging index are unchanged
+so when we reset, all files are still changed, and staged but not committed.
+like in vscode
