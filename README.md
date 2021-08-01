@@ -39,3 +39,7 @@ git stash pop stash-name
 
 //restore stage changes
 git restore --staged file-name
+
+
+GIT RESET
+git reset --hard <commit-hash>
