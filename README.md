@@ -23,6 +23,8 @@ git push -u origin <branch-name>
 //delete branch from remote
 git push -d origin <branch-name>
 
+//track remoet branch
+git checkout --track origin/branch-name
 
 //stashing some changes
 git stash
