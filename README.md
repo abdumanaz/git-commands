@@ -55,3 +55,9 @@ only the commit history is changed
 working directory and staging index are unchanged
 so when we reset, all files are still changed, and staged but not committed.
 like in vscode
+
+
+//git tag
+git tag tag_name
+
+git push origin tag_name
